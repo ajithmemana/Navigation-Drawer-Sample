@@ -5,4 +5,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
 
+    <string-array name="phone_array">
+        <item>htcone </item>
+        <item>iphone5 </item>
+        <item>lumia920 </item>
+        <item>lumia925 </item>
+        <item>xperiaz </item>
+    </string-array>
+
 </resources>
