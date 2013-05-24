@@ -15,7 +15,6 @@ public class DeviceDetailFragment extends Fragment{
 
     public static final String ARG_PHONE_INDEX = "phone_index";
     String phoneImageName ;
-
     public DeviceDetailFragment() {
         // Empty constructor required for fragment subclasses
     }
@@ -34,6 +33,7 @@ public class DeviceDetailFragment extends Fragment{
         ((ImageView) rootView.findViewById(R.id.deviceimageView)).setImageResource(imageId);
         ((TextView) rootView.findViewById(R.id.phoneNametextView)).setText(phoneImageName);
         getActivity().setTitle(imageId);
+
         return rootView;
     }
 
